@@ -30,7 +30,7 @@ const Services = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-8">
-                <div className="w-14 h-14 bg-yellow-600 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-14 h-14 bg-gold-600 rounded-lg flex items-center justify-center mb-4">
                   <Sparkles className="w-7 h-7 text-white" />
                 </div>
                 <h3 className="text-3xl font-bold text-white mb-3">
@@ -45,8 +45,8 @@ const Services = () => {
 
           {/* Small Card 1 - Custom Tailoring */}
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow p-8">
-            <div className="w-12 h-12 bg-yellow-50 rounded-lg flex items-center justify-center mb-4">
-              <Scissors className="w-6 h-6 text-yellow-600" />
+            <div className="w-12 h-12 bg-gold-50 rounded-lg flex items-center justify-center mb-4">
+              <Scissors className="w-6 h-6 text-gold-600" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
               Custom Tailoring
@@ -58,8 +58,8 @@ const Services = () => {
 
           {/* Small Card 2 - Size Guide */}
           <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow p-8">
-            <div className="w-12 h-12 bg-yellow-50 rounded-lg flex items-center justify-center mb-4">
-              <Ruler className="w-6 h-6 text-yellow-600" />
+            <div className="w-12 h-12 bg-gold-50 rounded-lg flex items-center justify-center mb-4">
+              <Ruler className="w-6 h-6 text-gold-600" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
               Perfect Fit Guide
@@ -82,7 +82,7 @@ const Services = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent"></div>
               <div className="absolute inset-0 flex items-center">
                 <div className="p-8 max-w-xl">
-                  <div className="w-14 h-14 bg-yellow-600 rounded-lg flex items-center justify-center mb-4">
+                  <div className="w-14 h-14 bg-gold-600 rounded-lg flex items-center justify-center mb-4">
                     <BookOpen className="w-7 h-7 text-white" />
                   </div>
                   <h3 className="text-3xl font-bold text-white mb-3">
@@ -103,28 +103,28 @@ const Services = () => {
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div className="text-center group cursor-pointer">
-                <div className="w-16 h-16 bg-yellow-50 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-yellow-600 transition-colors">
+                <div className="w-16 h-16 bg-gold-50 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-gold-600 transition-colors">
                   <span className="text-2xl group-hover:scale-110 transition-transform">👗</span>
                 </div>
                 <h4 className="font-semibold text-gray-900 mb-1">Women's Wear</h4>
                 <p className="text-sm text-gray-600">Dresses, Suits & More</p>
               </div>
               <div className="text-center group cursor-pointer">
-                <div className="w-16 h-16 bg-yellow-50 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-yellow-600 transition-colors">
+                <div className="w-16 h-16 bg-gold-50 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-gold-600 transition-colors">
                   <span className="text-2xl group-hover:scale-110 transition-transform">👜</span>
                 </div>
                 <h4 className="font-semibold text-gray-900 mb-1">Luxury Bags</h4>
                 <p className="text-sm text-gray-600">Handbags & Clutches</p>
               </div>
               <div className="text-center group cursor-pointer">
-                <div className="w-16 h-16 bg-yellow-50 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-yellow-600 transition-colors">
+                <div className="w-16 h-16 bg-gold-50 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-gold-600 transition-colors">
                   <span className="text-2xl group-hover:scale-110 transition-transform">👠</span>
                 </div>
                 <h4 className="font-semibold text-gray-900 mb-1">Designer Shoes</h4>
                 <p className="text-sm text-gray-600">Heels, Flats & Boots</p>
               </div>
               <div className="text-center group cursor-pointer">
-                <div className="w-16 h-16 bg-yellow-50 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-yellow-600 transition-colors">
+                <div className="w-16 h-16 bg-gold-50 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-gold-600 transition-colors">
                   <span className="text-2xl group-hover:scale-110 transition-transform">💎</span>
                 </div>
                 <h4 className="font-semibold text-gray-900 mb-1">Accessories</h4>
@@ -135,14 +135,14 @@ const Services = () => {
         </div>
 
         {/* Styling Tips Banner */}
-        <div className="mt-12 bg-gradient-to-r from-yellow-600 to-amber-600 rounded-2xl shadow-lg p-8 text-center">
+        <div className="mt-12 bg-gradient-to-r from-gold-600 to-amber-600 rounded-2xl shadow-lg p-8 text-center">
           <h3 className="text-2xl font-bold text-white mb-3">
             Personal Styling Consultation
           </h3>
           <p className="text-white/90 text-lg max-w-3xl mx-auto mb-6">
             Book a complimentary session with our expert stylists for personalized recommendations, wardrobe planning, and exclusive styling tips tailored to your unique aesthetic.
           </p>
-          <button className="bg-white text-yellow-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+          <button className="bg-white text-gold-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
             Schedule Your Consultation
           </button>
         </div>
